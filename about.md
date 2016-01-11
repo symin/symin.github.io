@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+NHN Ent. Junior
+seonyu Min
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[seonyu.min@nhnent.com](mailto:seonyu.min@nhnent.com)
