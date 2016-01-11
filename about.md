@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-
+<br/>
 ### More Information
 
-NHN Ent. Junior
+NHN Ent. Junior <br/>
 seonyu Min
 
 ### Contact me
