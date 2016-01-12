@@ -3,8 +3,8 @@ layout: post
 title: 블로그 post하는 방법 test 하기!
 ---
 
-두 번째 test! 
+블로그 test! 
+루키햇님TF 6조!! 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+![Main_image](https://cloud.githubusercontent.com/assets/16337370/12253842/3e9e561a-b926-11e5-8bea-c18e42c0eff9.PNG)
+루키햇님TF 6조 화이팅! 
