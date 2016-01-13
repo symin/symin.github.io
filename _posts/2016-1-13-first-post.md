@@ -17,6 +17,8 @@ title: Rookie Camp!
 무사히 그리고 즐겁게 완주할 수 있었다. <br/>
 <br/>
 
+![img1](https://cloud.githubusercontent.com/assets/16337370/12281162/17119c4a-b9d7-11e5-9895-262c14158aa5.PNG) <br/>
+
 짧은 일주일이었지만 많은 것을 배우고 느낄수 있었다. <br/>
 앞으로도 서로 지치고 힘들때 힘이 되주는 동기가 되었으면 좋겠다. <br/>
 <br/>
