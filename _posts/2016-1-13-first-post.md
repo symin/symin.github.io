@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 일주일의 Rookie Camp!
+title: Rookie Camp!
 ---
 
 
