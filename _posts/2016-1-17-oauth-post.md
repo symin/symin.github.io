@@ -36,10 +36,11 @@ Access Token	- 인증 후 Consumer가 Service Provider의 자원에 접근하기
 OAuth 1.0a 인증 과정 <br/>
 
 ``출처: http://oauth.net/core/diagram.png``
-
+<br/><br/>
 ## 네이버 OAuth 인증 체험!!!
-
+<br/>
 ### 인증코드 요청 과정
+---
 #### [request]
 ```
 RequestURL: https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=jyvqXeaVOVmV&redirect_uri=&state=rki4tvChHQaLdUb2
@@ -68,8 +69,9 @@ redirect_uri: 네이버 로그인 인증의 결과를 전달받을 콜백 URL(UR
 애플리케이션을 등록할 때 Callback URL에 설정한 정보
 state: 애플리케이션이 생성한 상태 토큰
 ```
-
+<br/>
 ### Acesstoken 요청 과정
+---
 #### [request]
 ```
 POST /v1/nid/getUserProfile.xml HTTP/1.1 User-Agent: naver oauth2.0 test form Host: opanapi.naver.com Pragma: no-cache Accept: */* Authorization: Bearer AAAAQnCTEH34tM6DAFaXZi8B09z7wIXbt65ag6N8Kf/XN0i8R7t7Hww3Pfzs1TqCRVbyvAKPXUYeg
@@ -94,9 +96,9 @@ Content-Type: application/json; charset=euc-kr
 
 { "access_token":"AAAAQnCTEH34tM6DAFaXZi8B09z7wIXbt65ag6N8Kf/XN0i8R7t7Hww3Pfzs1TqCRVbyvAKPXUYegE3Pj05Q6h3HpETUbDrba6iUeC4vb4toGGGO", "refresh_token":"4MmTSToisPipkVbis7pEemy2RcueWGulyFkREfRgO2dMhSZXw07DxsEMBj1conY7rbbiiyMUDv2d4VeQkrgTU7Ex7BINq3ImKiitPg64kPuLglzkQrWaafddvTt8elipYnSW74", "token_type":"bearer", "expires_in":"3600" }
 ```
-
+<br/>
 ### Test Api 호출 과정
-
+---
 #### [request]
 ```
 POST /v1/nid/getUserProfile.xml HTTP/1.1 User-Agent: naver oauth2.0 test form Host: opanapi.naver.com Pragma: no-cache Accept: */* Authorization: Bearer AAAAQnCTEH34tM6DAFaXZi8B09z7wIXbt65ag6N8Kf/XN0i8R7t7Hww3Pfzs1TqCRVbyvAKPXUYeg
@@ -130,9 +132,9 @@ XML 형식으로 해당 사용자의 정보를 받아오는 과정을 확인할 
 요청과 응답에 대한 결과를 확인해보고, <br/>
 email, nickname, age, gender, 이름, 생일 등 직접 나의 정보를 받아오는 과정을 보니 조금 더 명확하게 이해할 수 있었다!<br/><br/>
 
-``참고 사이트 
-네이버 아이디로 로그인 > 체험하기 를 이용하여, 요청과 응답 정보를 받아 test 해 보았습니다.
-http://static.nid.naver.com/oauth/naverOAuthExp.nhn, 
-https://nid.naver.com/devcenter/docs.nhn?menu=Web
-`` 
+``참고 사이트`` 
+``네이버 아이디로 로그인 > 체험하기 를 이용하여, 요청과 응답 정보를 받아 test 해 보았습니다.``
+``http://static.nid.naver.com/oauth/naverOAuthExp.nhn, ``
+``https://nid.naver.com/devcenter/docs.nhn?menu=Web``
+
 
