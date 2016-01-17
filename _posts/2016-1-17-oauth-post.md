@@ -25,11 +25,11 @@ OAuth에서 'Auth'는 'Authentication'(인증)뿐만 아니라 'Authorization'(�
 그렇기 때문에 OAuth 인증을 진행할 때 해당 서비스 제공자는 '제 3자가 어떤 정보나 서비스에 사용자의 권한으로 접근하려 하는데
 허용하겠느냐'라는 안내 메시지를 보여 주는 것이다. <br/>
 ```
-User	- Service Provider에 계정을 가지고 있으면서, Consumer를 이용하려는 사용자<br/>
-Service Provider	- OAuth를 사용하는 Open API를 제공하는 서비스 <br/>
-Consumer	- OAuth 인증을 사용해 Service Provider의 기능을 사용하려는 애플리케이션이나 웹 서비스 <br/>
-Request Token	- Consumer가 Service Provider에게 접근 권한을 인증받기 위해 사용하는 값. 인증이 완료된 후에는 Access Token으로 교환한다. <br/>
-Access Token	- 인증 후 Consumer가 Service Provider의 자원에 접근하기 위한 키를 포함한 값 <br/>
+User	- Service Provider에 계정을 가지고 있으면서, Consumer를 이용하려는 사용자
+Service Provider	- OAuth를 사용하는 Open API를 제공하는 서비스 
+Consumer	- OAuth 인증을 사용해 Service Provider의 기능을 사용하려는 애플리케이션이나 웹 서비스 
+Request Token	- Consumer가 Service Provider에게 접근 권한을 인증받기 위해 사용하는 값. 인증이 완료된 후에는 Access Token으로 교환.
+Access Token	- 인증 후 Consumer가 Service Provider의 자원에 접근하기 위한 키를 포함한 값
 ```
 
 ![인증과정](http://d2.naver.com/content/images/2015/06/helloworld-24942-3.png) <br/>
