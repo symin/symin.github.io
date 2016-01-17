@@ -5,12 +5,14 @@ title: OAuth 인증 이해
 
 들어가기 전에.....
 * http://www.naver.com/logo.png 파일을 요청하는 HTTP Request?
+
 ```
 GET /logo.png HTTP/1.1
 Host: www.naver.com
 ```
 
 * 해당 자원이 없을 때 서버 응답은?
+
 ```
 HTTP/1.1 404 Not Found
 ```
@@ -22,15 +24,18 @@ HTTP/1.1 404 Not Found
 OAuth에서 'Auth'는 'Authentication'(인증)뿐만 아니라 'Authorization'(허가) 또한 포함하고 있다. <br/>
 그렇기 때문에 OAuth 인증을 진행할 때 해당 서비스 제공자는 '제 3자가 어떤 정보나 서비스에 사용자의 권한으로 접근하려 하는데
 허용하겠느냐'라는 안내 메시지를 보여 주는 것이다. <br/>
-
+```
 User	- Service Provider에 계정을 가지고 있으면서, Consumer를 이용하려는 사용자<br/>
 Service Provider	- OAuth를 사용하는 Open API를 제공하는 서비스 <br/>
 Consumer	- OAuth 인증을 사용해 Service Provider의 기능을 사용하려는 애플리케이션이나 웹 서비스 <br/>
 Request Token	- Consumer가 Service Provider에게 접근 권한을 인증받기 위해 사용하는 값. 인증이 완료된 후에는 Access Token으로 교환한다. <br/>
 Access Token	- 인증 후 Consumer가 Service Provider의 자원에 접근하기 위한 키를 포함한 값 <br/>
+```
 
 ![인증과정](http://d2.naver.com/content/images/2015/06/helloworld-24942-3.png) <br/>
-OAuth 1.0a 인증 과정(원본 출처: http://oauth.net/core/diagram.png) <br/>
+OAuth 1.0a 인증 과정 <br/>
+
+``출처: http://oauth.net/core/diagram.png``
 
 ## 네이버 OAuth 인증 
 
@@ -125,5 +130,8 @@ XML 형식으로 해당 사용자의 정보를 받아오는 과정을 확인할 
 요청과 응답에 대한 결과를 확인해보고, <br/>
 email, nickname, age, gender, 이름, 생일 등 직접 나의 정보를 받아오는 과정을 보니 조금 더 명확하게 이해할 수 있었다!<br/><br/>
 
-``참고 사이트 http://static.nid.naver.com/oauth/naverOAuthExp.nhn, https://nid.naver.com/devcenter/docs.nhn?menu=Web`` 
+``참고 사이트 
+http://static.nid.naver.com/oauth/naverOAuthExp.nhn, 
+https://nid.naver.com/devcenter/docs.nhn?menu=Web
+`` 
 
