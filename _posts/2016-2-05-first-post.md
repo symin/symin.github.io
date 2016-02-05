@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basecamp 1주차 이야기!
+title: Basecamp 이야기!
 ---
 
 짧게 느껴졌던 일주일간의 Rookie camp가 끝나고, <br/>
