@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git에서 clone받아서 war 파일 만들기!
+title: linux 사용법!
 ---
 
 <br/>
