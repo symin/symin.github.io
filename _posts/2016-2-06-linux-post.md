@@ -6,7 +6,7 @@ title: linux 사용법!
 <br/>
 
 1. 먼저 우리 서버로 로그인한다. <br/>
-``rlogin -l irteam tcrk6web-91a901``<br/><br/>
+``rlogin -l 계정 호스트네임``<br/><br/>
 
 2. deploy 폴더로 이동해서 git에서 소스를 clone 받고 비밀번호를 입력한다.<br/>
 ``cd deploy``<br/>
