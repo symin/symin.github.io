@@ -2,13 +2,6 @@
 layout: post
 title: linux 사용법!
 ---
-
-<br/>
----
-layout: post
-title: linux 사용법!
----
-
 <br/>
 
 1. 먼저 우리 서버로 로그인한다. <br/>
